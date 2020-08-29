@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/jangam-sridhar-reddy/travel-site#readme",
   "dependencies": {
-    "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
   }
 }
