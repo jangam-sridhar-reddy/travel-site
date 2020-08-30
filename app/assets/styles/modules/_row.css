@@ -14,6 +14,14 @@
         margin-bottom: 1rem;
     }
 
+    &--gutters-large{
+        margin-right: -100px;
+    }
+
+    &--gutters-large > div{
+        padding-right: 100px;
+    }
+
 
     @mixin atMedium{
         &__b-margin-until-medium{
@@ -29,7 +37,10 @@
             }
         }
 
-        
+        &__medium-6{
+            float: left;
+            width: 50%;
+        }
     
         &__medium-8{
             float : left;
