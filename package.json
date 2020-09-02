@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/jangam-sridhar-reddy/travel-site#readme",
   "dependencies": {
+    "lazysizes": "^5.2.2",
     "lodash": "^4.17.20",
     "normalize.css": "^8.0.1"
   },

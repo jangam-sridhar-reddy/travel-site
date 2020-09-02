@@ -11,7 +11,6 @@ class StickyHeader {
     }
 
     events(){
-        console.log("scroll");
         window.addEventListener("scroll", throttle(() => this.runOnScroll(), 200));
         window.addEventListener("resize", debounce(() =>{            
             this.browserHeight = window.innerHeight;
