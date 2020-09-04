@@ -21,6 +21,7 @@ class ClientSecretArea {
 
     sendRequest(){
         let secretURL = "https://affectionate-dijkstra-e50ce8.netlify.app/.netlify/functions/secret-area";
+        
         let checkPassword = {
             password : this.field.value,
         }
