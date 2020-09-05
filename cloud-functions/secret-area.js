@@ -1,8 +1,5 @@
 exports.handler = function(event, context, callback){
-    // callback(null, {
-    //     statusCode : 200,
-    //     body : "sridhar"
-    // });
+    
     let body;
     let bodyContent = `
         <h3>Welcome to the secret area</h3>

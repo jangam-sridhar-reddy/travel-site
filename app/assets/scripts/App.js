@@ -5,7 +5,14 @@ import RevealOnScroll from "./modules/RevealOnScroll";
 import StickyHeader from "./modules/StickyHeader";
 import ClientSecretArea from "./modules/ClientSecretArea";
 
+// react related code here
+import React from "react";
+import ReactDOM from "react-dom";
 
+// import react component
+import MyAmazingComponent from "./modules/myAmazingComponent";
+
+ReactDOM.render(<MyAmazingComponent/>, document.querySelector("#my-react-example"));
 
 new MobileMenu();
 new RevealOnScroll(document.querySelectorAll(".feature-item"), 75);
